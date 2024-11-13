@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishekh Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* General Reset */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    /* Body Background */
+    
+    body {
+        background: rgb(113, 187, 119);
+        background: linear-gradient(90deg, rgb(147, 122, 190) 0%, rgba(241, 48, 5, 0.885) 50%, rgba(252, 176, 69, 1) 100%);
+        color: #fff;
+        text-align: center;
+        scroll-behavior: smooth;
+    }
+    /* Header */
+    
+    .header {
+        padding: 100px 0;
+        animation: fadeIn 2s ease-in-out;
+    }
+    
+    .header h1 {
+        font-size: 3em;
+        margin-bottom: 0.3em;
+    }
+    /* Section Styling */
+    
+    section {
+        padding: 60px 20px;
+        background: rgba(255, 255, 255, 0.1);
+        margin: 20px;
+        border-radius: 8px;
+        animation: slideUp 1s ease-in-out;
+    }
+    /* Section Headers */
+    
+    section h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    /* Footer */
+    
+    footer {
+        padding: 20px;
+    }
+    /* Animations */
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes slideUp {
+        from {
+            transform: translateY(50px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+</style>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Welcome to Abhishekh Portfolio</h1>
+        <p>Aspiring Computer Science Engineer</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Abhishekh. I am pursuing my Bachelor of Engineering in Computer Science and Engineering at Vivekananda College of Engineering and Technology.</p>
+        <p>I am passionate about technology, and I enjoy working on projects and improving my skills.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>BE (Computer Science Engineering)</strong> - Vivekananda College Of Engineering And Technology, Expected 2026</li>
+            <li><strong>PUC</strong> - Diamond PU college Basavakalyan Bidar Dist, Passing Year: 2022</li>
+            <li><strong>SSLC</strong> - Govt High School Chandikapur, Basavakalyan Taluk, Bidar Dist Passing Year: 2020</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <p><strong>Technical Skills:</strong> C Language, Java, Python, C++</p>
+        <p><strong>Soft Skills:</strong> Self Confidence, Team Work</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: abhishekhpratapure01@gmail.com</p>
+        <p>Phone: 7483700040</p>
+        <p>Location: Chandikapure Village, Basavakalyan Taluk, Bidar dist - 585419</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Abhishekh. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script src="script.js"></script>
+</body>
+
+</html>
